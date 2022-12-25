@@ -1,0 +1,1076 @@
+/*************** Start Header ***************/
+
+/*===== Start Header Background =====*/
+
+header{
+    min-height: 630px;
+    background: url("./../images/pexels-photo.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+.header-color{
+    min-height: 630px;
+    background-color: #ff5c00d1;
+}
+
+/*===== End Header Background =====*/
+
+
+/*===== Start Navigation Bar =====*/
+
+.navbar{
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-default{
+    background-color: transparent;
+}
+
+/***** Brand Name *****/
+
+.navbar-brand {
+    color: #FFF !important;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+/***** Links *****/
+
+.navbar-default .navbar-nav{
+    margin-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+/***** Active And Hover Links *****/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #EC702A;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active{
+    color: #EC702A;
+    background-color: #000000b3;
+    border-radius: 4px;
+}
+
+/*===== End Navigation Bar =====*/
+
+
+/*===== Start Header Content =====*/
+
+.header-content{
+    min-height: 548px;
+    color: #FFF;
+}
+
+/*===== Start Header Content >>>>> Text Content =====*/
+
+.header-content .text-content h1{
+    font-size: 62px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.header-content .text-content h1 span{
+    color: #ffce64;
+}
+
+.header-content .text-content h3{
+    font-size: 30px;
+}
+
+.header-content .text-content a{
+    display: inline-block;
+    width: 224px;
+    height: 55px;
+    line-height: 55px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #FFF;
+    color: #EC702A;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 22px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-content .text-content a:hover{
+    background-color: #000000b3;
+    color: #EC702A;
+}
+
+/*===== End Header Content >>>>> Text Content =====*/
+
+
+/*===== Start Header Content >>>>> Image Content =====*/
+
+.header-content .image-content{
+    
+}
+
+.header-content .image-content img{
+    display: inline-block;
+    max-width: 150%;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    z-index: 1020;
+}
+
+
+/*===== End Header Content >>>>> Image Content =====*/
+
+
+/*===== End Header Content =====*/
+
+
+/*************** End Header ***************/
+
+
+/*************** Start About Section ***************/
+
+.about{
+    min-height: 470px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.about .about-img{
+    text-align: center;
+}
+
+.about .about-img img{
+    display: inline-block;
+}
+
+.about .about-text{
+    
+}
+
+.about .about-text h3{
+    margin-top: 75px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about .about-text p{
+    width: 98%;
+    font-size: 18px;
+    color: #7a848a;
+    text-align: justify;
+}
+
+.about .about-text p:nth-of-type(2){
+    display: none;
+}
+
+.about .about-text > span{
+    display: block;
+    width: 130px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #EC702A;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.about .about-text > span i{
+    font-size: 26px;
+    position: absolute;
+    bottom: 6px;
+    left: 99px;
+}
+
+.about .about-text > span:hover{
+    background-color: #000000b3;
+    color: #FFF;
+}
+
+
+/*************** End About Section ***************/
+
+
+/*************** Start Our Spaces Section ***************/
+
+.our-spaces{
+    min-height: 520px;
+    background: url("./../images/our-spaces.png") no-repeat;
+    background-size: cover;
+}
+
+.our-spaces .our-img{
+    
+}
+
+.our-spaces .our-img img{
+    max-width: 158%;
+    position: absolute;
+    left: -106px;
+    top: 35px;
+}
+
+.our-spaces .our-text{
+    padding-top: 106px;
+}
+
+.our-spaces .our-text h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ef613c;
+    margin-bottom: 40px;
+}
+
+.our-spaces .our-text p{
+    font-size: 18px;
+    color: #7a848a;
+    text-align: justify;
+}
+
+/*************** End Our Spaces Section ***************/
+
+/*************** Start Work Love Section ***************/
+
+.work-love{
+    min-height: 800px;
+    background-color: #e5eaee;
+}
+
+/*===== Start Features Section =====*/
+
+.work-love .features{
+    position: relative;
+    top: -50px;
+}
+
+.work-love .features .feat{
+    min-height: 270px;
+    background-color: #FFF;
+    padding: 35px;
+    text-align: center;
+    border-radius: 24px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.0);
+}
+
+.work-love .features .feat:hover{
+    box-shadow: 0 18px 28px 0 rgba(26,0,35,0.12);
+}
+
+.work-love .features .feat img{
+    margin-left: -6px;
+    margin-bottom: 22px;
+}
+
+.work-love .features .feat span{
+    display: block;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.work-love .features .feat:hover span:nth-of-type(3){
+    width: 100%;
+}
+
+.work-love .features .feat span:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.work-love .features .feat span:nth-of-type(2){
+    font-size: 18px;
+    color: #9ba3a9;
+}
+
+.work-love .features .feat span:last-of-type{
+    width: 41px;
+    height: 5px;
+    margin-top: 15px;
+}
+
+.work-love .features .feat .color1{
+    background-color: #7e65d2;
+}
+
+.work-love .features .feat .color2{
+    background-color: #fbad17;
+}
+
+.work-love .features .feat .color3{
+    background-color: #3ba9e2;
+}
+
+.work-love .features .feat .color4{
+    background-color: #f96d49;
+}
+
+/*===== End Features Section =====*/
+
+/*===== Start Coworking Section =====*/
+
+.coworking{
+    margin-top: 70px;
+}
+
+.coworking .text h3{
+    font-size: 70px;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+}
+
+.coworking .text h3 span{
+    position: relative;
+}
+
+.coworking .text h3 span::after{
+    font-family: "Font Awesome 5 Pro";
+    content: "\f004";
+    font-size: 46px;
+    color: #f13f11;
+    position: absolute;
+    top: 26px;
+    left: 12px;
+    animation: heartbeat .6s infinite linear;
+}
+
+@keyframes heartbeat{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.coworking .text > span{
+    font-size: 28px;
+    color: #7e65d2;
+}
+
+.coworking .components i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: #3ba9e2;
+    background-color: #fff;
+    margin-bottom: 26px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.0);
+}
+
+.coworking .components i::after{
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #FFF;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 24px;
+    right: -10px;
+}
+
+.coworking .components .component div{
+    display: inline-block;
+}
+
+.coworking .components .component div:nth-child(2){
+    margin-left: 25px;
+}
+
+.coworking .components span{
+    
+}
+
+.coworking .components .component div span:nth-of-type(1){
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 16px;
+}
+
+.coworking .components .component div span:nth-of-type(2){
+    font-weight: bold;
+    color: #9ba3a9;
+}
+
+/*===== End Coworking Section =====*/
+
+/*************** End Work Love Section ***************/
+ 
+/*************** Start Our Team Section ***************/
+
+.our-team{
+    min-height: 660px;
+    border-bottom: 1px solid #cdd5da;
+}
+
+.our-team h3, .our-team p{
+    text-align: center;
+}
+
+.our-team h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ef613c;
+    margin-top: 80px;
+    margin-bottom: 22px;
+}
+
+.our-team p{
+    font-size: 18px;
+    color: #7a848a;
+}
+
+.our-team div p:nth-of-type(2){
+    margin-top: -6px;
+}
+
+.our-team .team{
+    min-height: 200px;
+    background-color: #ec7a2c;
+    border-radius: 10px;
+    margin-top: 185px;
+    margin-bottom: 40px;
+    position: relative;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.2);
+}
+
+.our-team .team::after{
+    content: "";
+    width: 35px;
+    height: 5px;
+    display: inline-block;
+    background-color: #fbad17;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+
+.our-team .team div{
+    display: inline-block;
+    text-align: right;
+    color: #FFF;
+    margin-right: -26px;
+}
+
+.our-team .team div:nth-child(2){
+    width: 39%;
+}
+
+.our-team .team div span:nth-child(1){
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.our-team .team div span:nth-child(2){
+    font-size: 18px;
+}
+
+.our-team .team div img{
+    display: inline-block;
+    margin-top: -173px;
+    margin-bottom: -11px;
+}
+
+.our-team .team div span{
+    display: block;
+}
+
+/*************** End Our Team Section ***************/
+
+
+/*************** Start Contact US Footer ***************/
+
+/*===== Start Contact US Global =====*/
+
+.contact-us a{
+    text-decoration: none;
+}
+
+/*===== Start Contact US >>>>> Social Media =====*/
+
+.contact-us .social-media{
+    margin: 26px 0;
+}
+
+.contact-us .social-media a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 26px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+    margin-right: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-us .social-media a:hover{
+    color: #ffce64;
+    transform: scale(1.1 , 1.1);
+}
+
+.contact-us .social-media a:nth-child(1){
+    background-color: #3b549f;
+}
+
+.contact-us .social-media a:nth-child(2){
+    background-color: #1da1f3;
+}
+
+.contact-us .social-media a:nth-child(3){
+    background-color: #017ab9;
+}
+
+/*===== Start Contact US >>>>> Site Links =====*/
+
+.contact-us ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-us ul li{
+    display: inline-block;
+}
+
+.contact-us ul li:not(:first-child)::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #F00;
+    margin: 4px 20px;
+}
+
+.contact-us ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #7a848abf;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.contact-us ul li a:hover{
+    color: #ec7a2c;
+}
+
+/*===== Start Contact US >>>>> Copyright Text =====*/
+
+.contact-us .copyright span{
+    font-size: 18px;
+}
+
+.contact-us .copyright span:not(:last-child){
+    text-transform: uppercase;
+    color: #7a848a;
+    margin-right: 20px;
+}
+
+.contact-us .copyright span:last-child{
+    color: #7a848ab8;
+}
+
+/*===== Start Contact US >>>>> Google Play Buttons =====*/
+
+.contact-us .google-play{
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+
+.contact-us .google-play a{
+    display: block;
+    width: 215px;
+    height: 66px;
+    background-color: #000;
+    color: #FFF;
+    margin: 14px auto;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-us .google-play a i{
+    display: block;
+    float: left;
+    font-size: 40px;
+    margin-top: 13px;
+    margin-left: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-us .google-play a:first-child i{
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.contact-us .google-play a div{
+    display: inline-block;
+    width: 128.422px;
+    margin: 8px 15px;
+    text-align: left !important;
+}
+
+.contact-us .google-play a div span:first-child{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-us .google-play a div span:last-child{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contact-us .google-play a:hover{
+    color: #ffae00;
+}
+
+.contact-us .google-play a:hover i{
+    height: 44px;
+    background-size: cover;
+    color: transparent;
+}
+
+.contact-us .google-play a:nth-child(1):hover i{
+    background-image: url("../images/apple-store-icon.png");
+}
+
+.contact-us .google-play a:nth-child(2):hover i{
+    background-image: url("../images/google-play-icon.png");
+}
+
+/*************** End Contact US Footer ***************/
+
+
+
+/*************** Start Media Query (min-width: 768px) ***************/
+
+@media (min-width: 768px){
+    
+    .navbar-brand{
+        margin-top: 32px;
+        font-size: 32px;
+    }
+    
+    .navbar-brand:hover,
+    .navbar-brand:focus{
+        color: #000000b3 !important;
+    }
+    
+    .navbar-default .navbar-nav li:not(:last-child) a{
+        margin-right: 4px;
+    }
+    
+    .navbar-default .navbar-nav li span{
+        display: inline-block;
+        width: 3px;
+        height: 30px;
+        background-color: #0000005c;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    
+    /**********************************/
+    
+}
+
+/*************** End Media Query (min-width: 768px) ***************/
+
+
+
+/*************** Start Media Query (max-width: 1199px) ***************/
+
+@media (max-width: 1199px){
+    
+    .header-content .image-content{
+        text-align: center;
+    }
+    
+    .header-content .image-content img{
+        max-width: 100%;
+        position: static;
+        top: 0;
+        right: 0;
+    }
+    
+    .header-content .text-content{
+        text-align: center;
+    }
+    
+    .header-content .text-content h1{
+        margin-top: 20px;
+    }
+    
+    .header-content .text-content a{
+        margin-bottom: 50px;
+    }
+    
+    /**********************************/
+    
+    .about{
+        padding-top: 50px;
+    }
+    
+    .about .about-text h3{
+        margin-top: 0;
+    }
+    
+    /**********************************/
+    
+    .our-spaces .our-img img{
+        max-width: 100%;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .our-spaces .our-text{
+        padding-top: 26px;
+    }
+    
+    .our-spaces .our-text p{
+        margin-bottom: 80px;
+    }
+    
+    /**********************************/
+    
+    .coworking{
+        margin-top: -60px;
+    }
+    
+    .coworking .text{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .coworking .components i::after{
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-top: 10px solid #FFF;
+        top: 70px;
+        right: 24px;
+    }
+    
+    .coworking .components .component div{
+        display: block;
+        text-align: center;
+    }
+    
+    .coworking .components .component div:nth-child(2){
+        margin-left: 0;
+        margin-top: -16px;
+        margin-bottom: 45px;
+    }
+    
+    /**********************************/
+    
+    .contact-us{
+        text-align: center;
+    }
+    
+    .contact-us .google-play{
+        margin-bottom: 0;
+    }
+    
+    .contact-us .google-play a{
+        display: inline-block;
+    }
+    
+    .contact-us .google-play a:first-child{
+        margin-right: 20px;
+    }
+    
+    .contact-us .copyright{
+        margin-bottom: 14px;
+    }
+    
+}
+
+/*************** End Media Query (max-width: 1199px) ***************/
+
+
+
+
+
+/********** Start Media Query (min-width: 768px) and (max-width: 1199px) **********/
+
+@media (min-width: 768px) and (max-width: 1199px){
+    
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav > li{
+        float: none;
+        display: inline-block;
+    }
+    
+    .nav > li > a{
+        padding: 15px 13px;
+    }
+    
+    .navbar-nav.navbar-right:last-child{
+        margin-right: 0;
+    }
+    
+    .prowork{
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+    .prowork .navbar-brand{
+        float: none;
+    }
+    
+    .navbar-default .navbar-nav li span{
+        margin-top: 0;
+        margin-right: 0;
+        position: absolute;
+        top: -22px;
+        right: 1px;
+    }
+    
+}
+
+/********** End Media Query (min-width: 768px) and (max-width: 1199px) **********/
+
+
+
+
+
+
+/********** Start Media Query (max-width: 767px) **********/
+
+@media (max-width: 767px){
+    
+    body{
+        padding-top: 51px;
+    }
+    
+    /**********************************/
+    
+    .navbar-default{
+        background-color: #222;
+        border-color: #222;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    
+    .navbar-brand:hover,
+    .navbar-brand:focus{
+        color: #EC702A !important;
+    }
+    
+    .navbar-collapse{
+        border: none;
+        -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, .1);
+        box-shadow: inset 0 2px 0 rgba(255, 255, 255, .1);
+    }
+    
+    .navbar-default .navbar-toggle{
+        border: none;
+        transition: all 0.5s ease-in-out;
+        
+    }
+    
+    .navbar-default .navbar-toggle:hover, 
+    .navbar-default .navbar-toggle:focus{
+        background-color: #EC702A;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar{
+        height: 3px;
+        background-color: #FFF;
+    }
+    
+    /**********************************/
+    
+    .navbar-default .navbar-nav li a:hover,
+    .navbar-default .navbar-nav li a:focus{
+        color: #EC702A;
+        background-color: #000000b3;
+        padding-left: 29px;
+    }
+    
+    /**********************************/
+    
+    .header-content .text-content h1{
+        font-size: 36px;
+    }
+    
+    .header-content .text-content h3{
+        font-size: 22px;
+    }
+    
+    .header-content .text-content a{
+        width: 200px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 16px;
+    }
+    
+    /**********************************/
+    
+    .about{
+        padding-top: 24px;
+    }
+    
+    /**********************************/
+    
+    .our-spaces .our-text h3{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    /**********************************/
+    
+    .contact-us ul li{
+        margin: 4px 0;
+    }
+    
+    .contact-us ul li:not(:first-child)::before{
+        margin: 4px 10px;
+    }
+    
+}
+
+/********** End Media Query (max-width: 767px) **********/
+
+
+/********** Start Media Query (max-width: 599px) **********/
+
+@media (max-width: 599px){
+    
+    .our-team .team{
+        min-height: 126px;
+        margin-top: 400px;
+    }
+    
+    .our-team .team::after{
+        display: none;
+    }
+    
+    .our-team .team div{
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .our-team .team div:nth-child(2){
+        width: 100%;
+        padding: 6px;
+    }
+    
+    .our-team .team div img{
+        margin-top: -396px;
+    }
+    
+}
+
+/********** End Media Query (max-width: 599px) **********/
+
+
+/********** Start Media Query (max-width: 361px) **********/
+
+@media (max-width: 361px){
+    
+    .our-team .team div img{
+        margin-top: -356px;
+    }
+    
+}
+
+/********** End Media Query (max-width: 361px) **********/
+
+
+/********** Start Media Query (min-width: 1200px) and (max-width: 1474px) **********/
+
+@media (min-width: 1200px) and (max-width: 1474px){
+    
+    .our-spaces{
+        min-height: 445px;
+    }
+    
+    .our-spaces .our-img img{
+        max-width: 121%;
+        position: absolute;
+        left: -137px;
+        top: 2px;
+    }
+    
+    .our-spaces .our-text{
+        padding-top: 50px;
+    }
+    
+}
+
+/********** End Media Query (min-width: 1200px) and (max-width: 1474px) **********/
+
+
+/********** Start Media Query (max-width: 561px) **********/
+
+@media (max-width: 561px){
+    
+    .contact-us .copyright span:first-child{
+        margin-left: 24px;
+    }
+    
+    .contact-us .copyright span:last-child{
+        display: block;
+    }
+    
+}
+
+/********** End Media Query (max-width: 561px) **********/
+
+
+/********** Start Media Query (max-width: 486px) **********/
+
+@media (max-width: 500px){
+    
+    .contact-us .google-play a:first-child{
+        margin-right: auto;
+    }
+    
+}
+
+/********** End Media Query (max-width: 486px) **********/
+
+
